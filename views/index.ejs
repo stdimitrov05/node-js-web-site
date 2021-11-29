@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Node.js Web Site</title>
+</head>
+<header>
+    <div class="header_text"> 
+   
+    <h1 class="welcome">Welcome back!</h1>
+    </div>
+    
+   
+<div class="dropdown">
+    <button class="dropbtn">🌍</button>
+    <div class="dropdown-content">
+      <a href="/"><i class="fas fa-home">Home</i></a>
+      <a href="/contact"><i class="fa fa-address-book" aria-hidden="true">Contact</i>
+      </a>
+     
+    </div>
+  </div>
+</header>
+<body>
+	<div class="container">
+		
+		<div class="clock">
+			<div id="date" class="date box"></div>
+			<div class="clock-face">
+				<div class="marker twelve"></div>
+				<div class="marker three"></div>
+				<div class="marker six"></div>
+				<div class="marker nine"></div>
+			<div id="minute-hand" class="hand minute-hand"></div>
+			<div id="hour-hand" class="hand hour-hand"></div>
+			<div id="second-hand" class="hand second-hand"></div>
+			<div id="centre" class="centre"></div>
+			<div id="digital-time" class="digital-time box"></div>
+			</div>
+		</div>
+		
+		<span class="switch-label"></span>
+		<label class="switch">
+			<input id="dark-mode-toggle" type="checkbox">
+			<span class="slider round"></span>
+		</label>
+		
+	</div>
+</body>
+<div class="footer-basic">
+    <footer >
+        
+        <div class="social"><a href="http://instagram.com/st_d05/">
+            <i class="fa fa-instagram"></i></a><a href="http://github.com/stdimitrov05/">
+                <i class="fa fa-github"></i></a></div>
+     
+        </ul>
+        <p class="copyright"> Stdimitrov05 © 2021</p>
+    </footer>
+    </div>
+    <script src="js/clock.js"></script>
+</html>
